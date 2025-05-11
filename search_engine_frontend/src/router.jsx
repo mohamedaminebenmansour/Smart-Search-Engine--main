@@ -11,6 +11,7 @@ import AboutPage from "./pages/AboutPage";
 import UserDashboardPage from "./pages/UserDashboardPage"; // Vérifiez l'export de UserDashboardPage.jsx
 import ProtectedRoute from "./components/ProtectedRoute"; // Vérifiez l'export de ProtectedRoute.jsx
 import HistoryPage from "./pages/HistoryPage";
+import FavoritesPage from './pages/FavoritesPage';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,14 @@ const router = createBrowserRouter([
         element: (
           <ProtectedRoute>
             <HistoryPage />
+          </ProtectedRoute>
+        ),
+      },
+      {
+        path: "favorites",
+        element: (
+          <ProtectedRoute>
+            <FavoritesPage />
           </ProtectedRoute>
         ),
       },
