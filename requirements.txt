@@ -1,0 +1,10 @@
+flask
+sentence-transformers
+scikit-learn
+PyJWT
+flask_cors
+flask_sqlalchemy
+flask_bcrypt
+bs4
+flask_migrate
+pandas

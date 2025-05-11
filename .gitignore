@@ -1,0 +1,81 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Editor/IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+*.egg
+.pytest_cache/
+instance/
+*.sqlite
+*.db
+*.db-journal
+
+# React/Node.js
+node_modules/
+/build/
+/dist/
+.cache/
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+*.log
+
+# Flask Specific
+migrations/
+*.cfg
+*.ini
+
+# AI/ML Files
+*.h5
+*.pkl
+*.joblib
+*.onnx
+*.pb
+*.pt
+*.bin
+/data/
+/models/
+/training_logs/
+
+# Local Environment Files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Jupyter Notebooks
+*.ipynb
+*.ipynb_checkpoints/
+
+# Exceptions (keep these)
+!.env.example
+!requirements.txt
+!package.json
+!README.md
